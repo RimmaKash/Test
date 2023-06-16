@@ -2,39 +2,39 @@
 <summary>Чеклист: регистрация на сайте (проект FEHU) </summary>
 <br>
 
-|Проверка   |Результат|
-|---|---|
-|Вход через существующий аккаунт Google|:ballot_box_with_check:|
-|Вход через не существующий аккаунт Google|:ballot_box_with_check:|
-|Вход через существующий аккаунт Apple|:ballot_box_with_check:|
-|Вход через не существующий аккаунт Apple|:ballot_box_with_check:|
-|Приходит проверочный код|:ballot_box_with_check:|
-|Вход через не существующий аккаунт FB|:ballot_box_with_check:|
-|Вход через не существующий аккаунт FB|:ballot_box_with_check:|
-|Email С существующим адресом электронной почты|:ballot_box_with_check:|
-|Email Повторная регистрация|:ballot_box_with_check:|
-|Email Пустое значение|:ballot_box_with_check:|
-|Email Только буквы|:ballot_box_with_check:|
-|Email  Только числа|:ballot_box_with_check:|
-|Email  Только .com|:ballot_box_with_check:|
-|Email  Ввод специальных символов|:ballot_box_with_check:|
-|Email  Ввод двух и более @|:ballot_box_with_check:|
-|Email  Ввод < или >|:ballot_box_with_check:|
-|Пароль Ввод пароля Скрыть/показать пароль|:ballot_box_with_check:|
-|Пароль Пустое значение|:ballot_box_with_check:|
-|Пароль Оставить одно поле пустым|:ballot_box_with_check:|
-|Пароль Ввод только буквы|:ballot_box_with_check:|
-|Пароль Только спецсимволы|:ballot_box_with_check:|
-|Пароль Только цифры|:ballot_box_with_check:|
-|Пароль Буквы и специальные символы|:ballot_box_with_check:|
-|Пароль Буквы и цифры|:ballot_box_with_check:|
-|Пароль Цифры и спецсимволы|:ballot_box_with_check:|
-|Пароль Буквы, спецсимволы и цифры|:ballot_box_with_check:|
-|Пароль Ввод 5 символов|:ballot_box_with_check:|
-|Пароль Ввод 7 символов|:ballot_box_with_check:|
-|Флажок запомнить пароль Поставить/убрать|:ballot_box_with_check:|
-|Кнопка ввести новый Email Нажать|:ballot_box_with_check:|
-|Ссылки на политику конфиденциальности Нажать на скачивание|:ballot_box_with_check:|
+|Модуль   |Проверка|Результат|
+|---|---|---|
+|Регистрация через Google|Вход через существующий аккаунт Google|:ballot_box_with_check:|
+| |Вход через не существующий аккаунт Google|:ballot_box_with_check:|
+|Регистрация через Apple|Вход через существующий аккаунт Apple|:ballot_box_with_check:|
+| |Вход через не существующий аккаунт Apple|:ballot_box_with_check:|
+| |Приходит проверочный код|:ballot_box_with_check:|
+|Регистрация через FB|Вход через не существующий аккаунт FB|:ballot_box_with_check:|
+| |Вход через не существующий аккаунт FB|:ballot_box_with_check:|
+|Ввод Email|С существующим адресом электронной почты|:ballot_box_with_check:|
+| |Повторная регистрация|:ballot_box_with_check:|
+| |Пустое значение|:ballot_box_with_check:|
+| |Только буквы|:ballot_box_with_check:|
+| |Только числа|:ballot_box_with_check:|
+| |Только .com|:ballot_box_with_check:|
+| |Ввод специальных символов|:ballot_box_with_check:|
+| |Ввод двух и более @|:ballot_box_with_check:|
+| |Ввод < или >|:ballot_box_with_check:|
+|Ввод пароля|Скрыть/показать пароль|:ballot_box_with_check:|
+| |Пустое значение|:ballot_box_with_check:|
+| |Оставить одно поле пустым|:ballot_box_with_check:|
+| |Ввод только буквы|:ballot_box_with_check:|
+| |Только спецсимволы|:ballot_box_with_check:|
+| |Только цифры|:ballot_box_with_check:|
+| |Буквы и специальные символы|:ballot_box_with_check:|
+| |Буквы и цифры|:ballot_box_with_check:|
+| |Цифры и спецсимволы|:ballot_box_with_check:|
+| |Буквы, спецсимволы и цифры|:ballot_box_with_check:|
+| |Ввод 5 символов|:ballot_box_with_check:|
+| |Ввод 7 символов|:ballot_box_with_check:|
+|Флажок запомнить пароль|Поставить/убрать|:ballot_box_with_check:|
+|Кнопка ввести новый Email|Нажать|:ballot_box_with_check:|
+|Ссылки на политику конфиденциальности|Нажать на скачивание|:ballot_box_with_check:|
 </details>
 
 <details>
@@ -56,3 +56,37 @@
 |Элементы пропорционально масштабируются с изменением разрешения|:ballot_box_with_check:|
 |Соответсвие UI листам макета|:ballot_box_with_check:|
 |Позиция товара в категории|:ballot_box_with_check:|
+</details>
+
+<details>
+<summary>Чеклист: проверка оплаты (проект FEHU)</summary>
+<br>
+
+|Модуль   |Проверка|Результат|
+|---|---|---|
+|3D Secure| Ввод валидного кода из смс – успешная оплата|:ballot_box_with_check:|
+| |Ввод невалидного кода из смс – не успешная оплата|:ballot_box_with_check:|		
+| |Ввод кода из смс после истечения времени на повторную отправку кода|:ballot_box_with_check:|		
+| |Вовторный запрос кода и ввод: нового кода/предыдущего кода из смс|:ballot_box_with_check:|		
+| |Вернуться на предыдущий экран (экран ввода данных карты)|:ballot_box_with_check:|
+|Общие кейсы|Пользователь производит оплату товара|:ballot_box_with_check:|		
+| |Пользователь переходит на экран оплаты, возвращается обратно и изменяет количество товаров|:ballot_box_with_check:|		
+| |Корректное отображение итоговой стоимости после применения промокода|:ballot_box_with_check:|		
+| |Корректный расчет комиссии|:ballot_box_with_check:|		
+| |Переход на экран оплаты с отключенным соединением с интернетом – корректное отображение ошибки|:ballot_box_with_check:|
+|Проверка успешных сценариев оплаты|Успешное заполнение всех необходимых полей на виджете оплаты||:ballot_box_with_check:|	
+| |Успешная оплата полной стоимости|:ballot_box_with_check:|
+|Проверка неуспешных сценариев оплаты|Оплата данным платежным средством отклонена по неизвестным причинам||:ballot_box_with_check:|	
+| |Истек срок действия банковской карты|:ballot_box_with_check:|
+| |Платеж заблокирован из-за подозрения в мошенничестве|:ballot_box_with_check:|		
+| |Не хватает денег для оплаты (сумма на карте равна нулю)|:ballot_box_with_check:|		
+| |Не хватает денег для оплаты (сумма на карте в минусе)|:ballot_box_with_check:|			
+| |Не хватает денег для оплаты (сумма на карте меньше стоимости)|:ballot_box_with_check:|		
+| |Неправильно указан номер карты|:ballot_box_with_check:|	
+| |Организация, выпустившая платежное средство, недоступна|:ballot_box_with_check:|		
+| |Исчерпан лимит платежей для данного платежного средства или вашего магазина|:ballot_box_with_check:|	
+| |Запрещены операции данным платежным средством (например, карта заблокирована из-за утери, кошелек — из-за взлома мошенниками)|:ballot_box_with_check:|		
+| |Нельзя заплатить банковской картой, выпущенной в этой стране|:ballot_box_with_check:|		
+| |Неправильно указан код CVV2 (CVC2, CID)|:ballot_box_with_check:|
+
+
